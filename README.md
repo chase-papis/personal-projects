@@ -11,3 +11,6 @@ File info:
 
 File info:
 - numpy pandas (1) - creating/reading/writing using pandas, notes and code from kaggle.
+
+- pandas 2 - indexing/selecting/assisting using pandas, nmotes and code from kaggle.
+
