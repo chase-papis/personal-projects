@@ -10,8 +10,14 @@ File info:
 [PANDAS]
 
 File info:
-- numpy pandas (1) - creating/reading/writing using pandas, notes and code from kaggle.
+- pandas 1 - creating/reading/writing using pandas, notes and code from kaggle.
 
 - pandas 2 - indexing/selecting/assisting using pandas, nmotes and code from kaggle.
 
 = pandas 3 - summary functions and maps using pandas, notes and code from kaggle.
+
+
+[MATPLOTLIB]
+
+File info:
+- matplotlib info - basics of using matplotlib to plot graphs; code/annotations are a mix of my own and from various documentation sources.
