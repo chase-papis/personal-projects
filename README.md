@@ -14,7 +14,7 @@ File info:
 
 - pandas 2 - indexing/selecting/assisting using pandas, nmotes and code from kaggle.
 
-= pandas 3 - summary functions and maps using pandas, notes and code from kaggle.
+- pandas 3 - summary functions and maps using pandas, notes and code from kaggle.
 
 
 [MATPLOTLIB]
