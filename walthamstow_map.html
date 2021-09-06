@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_41f194df514747d4992c44457a5eef73 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_41f194df514747d4992c44457a5eef73" ></div>
+        
+</body>
+<script>    
+    
+            var map_41f194df514747d4992c44457a5eef73 = L.map(
+                "map_41f194df514747d4992c44457a5eef73",
+                {
+                    center: [51.58221819463271, 7.89645876060591e-05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_29a00644a72a42e3baa85424b5c91fce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var marker_819ed00bff3f48daa09a289969ce39ad = L.marker(
+                [51.58325221590104, -0.019908802600608084],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_2287e00ec73e497a81e248a08de90af7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_819ed00bff3f48daa09a289969ce39ad.setIcon(icon_2287e00ec73e497a81e248a08de90af7);
+        
+    
+        var popup_5c1530bfd39b45d4b697f828a8caf442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5570be2759a14e089ea4bec742122ca3 = $(`<div id="html_5570be2759a14e089ea4bec742122ca3" style="width: 100.0%; height: 100.0%;"><b>Walthamstow Central Station</b></div>`)[0];
+            popup_5c1530bfd39b45d4b697f828a8caf442.setContent(html_5570be2759a14e089ea4bec742122ca3);
+        
+
+        marker_819ed00bff3f48daa09a289969ce39ad.bindPopup(popup_5c1530bfd39b45d4b697f828a8caf442)
+        ;
+
+        
+    
+    
+            marker_819ed00bff3f48daa09a289969ce39ad.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a815dadcf94c4c2c9135db62f174c568 = L.marker(
+                [51.59491, -0.021052],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_973296659dae4c34975bd8e1381b415c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a815dadcf94c4c2c9135db62f174c568.setIcon(icon_973296659dae4c34975bd8e1381b415c);
+        
+    
+        var popup_abfa31d28732471bbb9152104631adfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b5f283f0fa1415197f144602ac2f51e = $(`<div id="html_2b5f283f0fa1415197f144602ac2f51e" style="width: 100.0%; height: 100.0%;"><b>Lloyd's Park</b></div>`)[0];
+            popup_abfa31d28732471bbb9152104631adfc.setContent(html_2b5f283f0fa1415197f144602ac2f51e);
+        
+
+        marker_a815dadcf94c4c2c9135db62f174c568.bindPopup(popup_abfa31d28732471bbb9152104631adfc)
+        ;
+
+        
+    
+    
+            marker_a815dadcf94c4c2c9135db62f174c568.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d89280ed7cf49b29a7923c295be37a3 = L.marker(
+                [51.56878598418458, 0.008736012313088739],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_793e770970654371857591d223a3c996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_9d89280ed7cf49b29a7923c295be37a3.setIcon(icon_793e770970654371857591d223a3c996);
+        
+    
+        var popup_1ac1ee18204c4304be229ad1e662e29d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66f0d508c38b4da9a51cc3e31b59e2ae = $(`<div id="html_66f0d508c38b4da9a51cc3e31b59e2ae" style="width: 100.0%; height: 100.0%;"><b>Leytonstone Station</b></div>`)[0];
+            popup_1ac1ee18204c4304be229ad1e662e29d.setContent(html_66f0d508c38b4da9a51cc3e31b59e2ae);
+        
+
+        marker_9d89280ed7cf49b29a7923c295be37a3.bindPopup(popup_1ac1ee18204c4304be229ad1e662e29d)
+        ;
+
+        
+    
+    
+            marker_9d89280ed7cf49b29a7923c295be37a3.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_405e289df2d6445cbc4f8dde0da45dc7 = L.marker(
+                [51.57615280624766, 0.02865694570082124],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_afc8448657c742d4892b6a0ef790f154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_405e289df2d6445cbc4f8dde0da45dc7.setIcon(icon_afc8448657c742d4892b6a0ef790f154);
+        
+    
+        var popup_7c061baba77c452b9775c00077bba57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efcbe9c2848e4c4ba85813cf2d225d16 = $(`<div id="html_efcbe9c2848e4c4ba85813cf2d225d16" style="width: 100.0%; height: 100.0%;"><b>Wanstead Station</b></div>`)[0];
+            popup_7c061baba77c452b9775c00077bba57a.setContent(html_efcbe9c2848e4c4ba85813cf2d225d16);
+        
+
+        marker_405e289df2d6445cbc4f8dde0da45dc7.bindPopup(popup_7c061baba77c452b9775c00077bba57a)
+        ;
+
+        
+    
+    
+            marker_405e289df2d6445cbc4f8dde0da45dc7.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd398eed6cdd4bd2b9ebc1630aa422bf = L.marker(
+                [51.579043437015855, 0.010780817463375897],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_67f599ce28b24ae0996eade88a85b9bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd398eed6cdd4bd2b9ebc1630aa422bf.setIcon(icon_67f599ce28b24ae0996eade88a85b9bc);
+        
+    
+        var popup_37182e649b624129bc697cc2fe0c9d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a57119541dc647cb8d4372d8d8d770cd = $(`<div id="html_a57119541dc647cb8d4372d8d8d770cd" style="width: 100.0%; height: 100.0%;"><b>Hollow Ponds</b></div>`)[0];
+            popup_37182e649b624129bc697cc2fe0c9d70.setContent(html_a57119541dc647cb8d4372d8d8d770cd);
+        
+
+        marker_cd398eed6cdd4bd2b9ebc1630aa422bf.bindPopup(popup_37182e649b624129bc697cc2fe0c9d70)
+        ;
+
+        
+    
+    
+            marker_cd398eed6cdd4bd2b9ebc1630aa422bf.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cef9b40735c4dc387d78004f57ecd74 = L.marker(
+                [51.564138723024676, -0.02343983445160312],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_70e344e0fe7f43e78a43df084370965d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cef9b40735c4dc387d78004f57ecd74.setIcon(icon_70e344e0fe7f43e78a43df084370965d);
+        
+    
+        var popup_6b17eb6d76cb4f6a8d6334c34989ad66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cfcb0f52b6f4f66912187b3c1554598 = $(`<div id="html_8cfcb0f52b6f4f66912187b3c1554598" style="width: 100.0%; height: 100.0%;"><b>Leyton Jubilee Park</b></div>`)[0];
+            popup_6b17eb6d76cb4f6a8d6334c34989ad66.setContent(html_8cfcb0f52b6f4f66912187b3c1554598);
+        
+
+        marker_5cef9b40735c4dc387d78004f57ecd74.bindPopup(popup_6b17eb6d76cb4f6a8d6334c34989ad66)
+        ;
+
+        
+    
+    
+            marker_5cef9b40735c4dc387d78004f57ecd74.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82b33dfa8785471bafe6f94fcbe09228 = L.marker(
+                [51.582826257676, -0.00784103130468776],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_d2ee6a756c7a4b8f9c0aed148f2fc8fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "pencil", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_82b33dfa8785471bafe6f94fcbe09228.setIcon(icon_d2ee6a756c7a4b8f9c0aed148f2fc8fb);
+        
+    
+        var popup_969eababcbc049bdab45a0dd6ec3f0c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f99fcdec97b406d874ad4331ff9913f = $(`<div id="html_2f99fcdec97b406d874ad4331ff9913f" style="width: 100.0%; height: 100.0%;"><b>Henry maynard Primary School</b></div>`)[0];
+            popup_969eababcbc049bdab45a0dd6ec3f0c5.setContent(html_2f99fcdec97b406d874ad4331ff9913f);
+        
+
+        marker_82b33dfa8785471bafe6f94fcbe09228.bindPopup(popup_969eababcbc049bdab45a0dd6ec3f0c5)
+        ;
+
+        
+    
+    
+            marker_82b33dfa8785471bafe6f94fcbe09228.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a250e71255ca40d691807b2506a98d07 = L.marker(
+                [51.57806652147416, 0.0031712693741565577],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_392f3f17415641e3bee036b593ab4af9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a250e71255ca40d691807b2506a98d07.setIcon(icon_392f3f17415641e3bee036b593ab4af9);
+        
+    
+        var popup_4b579326921640e28da7630368267f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e69012cf564ce09dbb8a66b1bd9313 = $(`<div id="html_a0e69012cf564ce09dbb8a66b1bd9313" style="width: 100.0%; height: 100.0%;"><b>Whipps Cross Hospital</b></div>`)[0];
+            popup_4b579326921640e28da7630368267f2e.setContent(html_a0e69012cf564ce09dbb8a66b1bd9313);
+        
+
+        marker_a250e71255ca40d691807b2506a98d07.bindPopup(popup_4b579326921640e28da7630368267f2e)
+        ;
+
+        
+    
+    
+            marker_a250e71255ca40d691807b2506a98d07.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36dadad8ffc64e08893075dfbef0750a = L.marker(
+                [51.59230133828259, 0.02762896162298795],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_29ad7b93e65e456080f6ed502144ba46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_36dadad8ffc64e08893075dfbef0750a.setIcon(icon_29ad7b93e65e456080f6ed502144ba46);
+        
+    
+        var popup_bb743af0990b456ea584fc495f966bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c8319a7c764e1e8bb4ac9104e37924 = $(`<div id="html_17c8319a7c764e1e8bb4ac9104e37924" style="width: 100.0%; height: 100.0%;"><b>South Woodford Station</b></div>`)[0];
+            popup_bb743af0990b456ea584fc495f966bc5.setContent(html_17c8319a7c764e1e8bb4ac9104e37924);
+        
+
+        marker_36dadad8ffc64e08893075dfbef0750a.bindPopup(popup_bb743af0990b456ea584fc495f966bc5)
+        ;
+
+        
+    
+    
+            marker_36dadad8ffc64e08893075dfbef0750a.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f33c8d84aa154fce9248aadb3fe0419d = L.marker(
+                [51.587043607986416, -0.0408492068865889],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_9ee019c502044dceb2e562611e4dcbce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f33c8d84aa154fce9248aadb3fe0419d.setIcon(icon_9ee019c502044dceb2e562611e4dcbce);
+        
+    
+        var popup_eb7cb4eacb7940ab99e0c66481053e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3571dec2f3f24c7fa50831140aa3d201 = $(`<div id="html_3571dec2f3f24c7fa50831140aa3d201" style="width: 100.0%; height: 100.0%;"><b>Blackhorse Road Station</b></div>`)[0];
+            popup_eb7cb4eacb7940ab99e0c66481053e84.setContent(html_3571dec2f3f24c7fa50831140aa3d201);
+        
+
+        marker_f33c8d84aa154fce9248aadb3fe0419d.bindPopup(popup_eb7cb4eacb7940ab99e0c66481053e84)
+        ;
+
+        
+    
+    
+            marker_f33c8d84aa154fce9248aadb3fe0419d.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0c86a39932949a6a7602fd7c50ae1dc = L.marker(
+                [51.58168991947722, -0.03214727252534987],
+                {}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+            var icon_19ffe6adb2ca4b52ae409aa46fad63e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e0c86a39932949a6a7602fd7c50ae1dc.setIcon(icon_19ffe6adb2ca4b52ae409aa46fad63e0);
+        
+    
+        var popup_9595306a83ee4c17ab5753b55a42c8a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07b00c54ea83434f81ce0f92a98d1b13 = $(`<div id="html_07b00c54ea83434f81ce0f92a98d1b13" style="width: 100.0%; height: 100.0%;"><b>St James Street Station</b></div>`)[0];
+            popup_9595306a83ee4c17ab5753b55a42c8a2.setContent(html_07b00c54ea83434f81ce0f92a98d1b13);
+        
+
+        marker_e0c86a39932949a6a7602fd7c50ae1dc.bindPopup(popup_9595306a83ee4c17ab5753b55a42c8a2)
+        ;
+
+        
+    
+    
+            marker_e0c86a39932949a6a7602fd7c50ae1dc.bindTooltip(
+                `<div>
+                     Check out this place!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_256fc7d671a34cae9e06da366379573e = L.circleMarker(
+                [51.58221819463271, 7.89645876060591e-05],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_41f194df514747d4992c44457a5eef73);
+        
+    
+                var lat_lng_popup_45a8f0eca9954d40987b6f3a76a2c179 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_45a8f0eca9954d40987b6f3a76a2c179
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_41f194df514747d4992c44457a5eef73);
+                    }
+                map_41f194df514747d4992c44457a5eef73.on('click', latLngPop);
+            
+</script>
