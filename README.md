@@ -14,9 +14,11 @@ File info:
 File info:
 - pandas 1 - creating/reading/writing using pandas, notes and code from kaggle.
 
-- pandas 2 - indexing/selecting/assisting using pandas, nmotes and code from kaggle.
+- pandas 2 - indexing/selecting/assisting using pandas, notes and code from kaggle.
 
 - pandas 3 - summary functions and maps using pandas, notes and code from kaggle.
+
+- pandas 4 - grouping and sorting using pandas, notes and code from kaggle.
 
 
 [MATPLOTLIB]
