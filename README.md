@@ -6,6 +6,8 @@ A collections of projects mostly used for practise/learning!
 File info:
 - Folium maps: my first try at using folium with python (and using a jupyter notebook); I created a map of my local area with a few markers highlighting different places. [see walthamstow_map]
 
+- intermediate folium practise - more advanced folium stuff, specifically layers, different map backgrounds, and heatmaps.
+
 
 [PANDAS]
 
