@@ -20,6 +20,8 @@ File info:
 
 - pandas 4 - grouping and sorting using pandas, notes and code from kaggle.
 
+- pandas 5 - data types and missing values using pandas, notes and code from kaggle.
+
 
 [MATPLOTLIB]
 
