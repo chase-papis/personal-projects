@@ -66,7 +66,7 @@ reviews.taster_name.unique()
 
 #see unique values and number of occurences:
 
-reviews.taster_name.value_count()
+reviews.taster_name.value_counts()
 
 #output:
 #Roger Voss           25514
