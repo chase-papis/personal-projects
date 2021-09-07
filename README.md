@@ -22,6 +22,8 @@ File info:
 
 - pandas 5 - data types and missing values using pandas, notes and code from kaggle.
 
+- pandas 6 - renaming and combining using pandas, notes and code from kaggle.
+
 
 [MATPLOTLIB]
 
