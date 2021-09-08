@@ -24,6 +24,8 @@ File info:
 
 - pandas 6 - renaming and combining using pandas, notes and code from kaggle.
 
+- pandas train journey task - creating and manipulating tables when using data from several csv files; the tasks included things like merging data from files, adding columns, sorting, and getting largest values.
+
 
 [MATPLOTLIB]
 
